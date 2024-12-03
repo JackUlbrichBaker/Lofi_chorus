@@ -1057,6 +1057,12 @@
 		)
 	)
 	(junction
+		(at 161.29 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e254a61-6659-422a-98ec-251ba590281c")
+	)
+	(junction
 		(at 104.14 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1075,16 +1081,40 @@
 		(uuid "74f3c328-9bbb-45a3-bd7c-222542e69678")
 	)
 	(junction
+		(at 146.05 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c8c5487-3acb-48b3-944d-8dbb9bf5cc60")
+	)
+	(junction
+		(at 135.89 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81fe9abd-acf0-4010-b03c-a7c58e81f72e")
+	)
+	(junction
 		(at 104.14 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87a3df6c-389f-48d5-91c7-c335088ec9f9")
 	)
 	(junction
+		(at 146.05 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9aa76082-b3a2-446d-a644-d95e5eb00cdc")
+	)
+	(junction
 		(at 97.79 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ac75d9e-ce5f-46bb-b9d1-96d8785a7f7e")
+	)
+	(junction
+		(at 116.84 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a05b2b58-ee49-409d-aea0-a9618e23e195")
 	)
 	(junction
 		(at 69.85 80.01)
@@ -1117,6 +1147,18 @@
 		(uuid "ba38fd6b-1bfb-464f-b3e1-7db9e1411bce")
 	)
 	(junction
+		(at 146.05 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbe61aa2-6b94-46d1-8070-a5b27d71257c")
+	)
+	(junction
+		(at 146.05 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfb1b8ff-149d-411d-a267-3d4cf388f035")
+	)
+	(junction
 		(at 82.55 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1127,6 +1169,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2b03459-aa94-4104-914a-7ba528aed299")
+	)
+	(junction
+		(at 161.29 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f859b9c3-bc20-495b-8cdc-78c69acc3204")
 	)
 	(wire
 		(pts
@@ -1150,6 +1198,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 57.15) (xy 146.05 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087645cb-7e8d-48b6-8e89-3732f6e16bf2")
+	)
+	(wire
+		(pts
 			(xy 91.44 96.52) (xy 88.9 96.52)
 		)
 		(stroke
@@ -1167,6 +1225,26 @@
 			(type default)
 		)
 		(uuid "0d021083-de01-47ce-8f05-4d3bc953a0f4")
+	)
+	(wire
+		(pts
+			(xy 161.29 80.01) (xy 194.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef96cb1-d7c7-459e-99f2-29b2098d7c03")
+	)
+	(wire
+		(pts
+			(xy 118.11 82.55) (xy 116.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae24f8a-5b53-4e9d-bac9-b8c33278ba81")
 	)
 	(wire
 		(pts
@@ -1210,6 +1288,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 78.74) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294f27b2-f650-4041-9284-542d36b5db8d")
+	)
+	(wire
+		(pts
 			(xy 90.17 127) (xy 82.55 127)
 		)
 		(stroke
@@ -1217,6 +1305,26 @@
 			(type default)
 		)
 		(uuid "31da9ab8-82bc-4c80-be4f-5573d5ac70e3")
+	)
+	(wire
+		(pts
+			(xy 146.05 82.55) (xy 135.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350b585e-122e-4370-a5e9-129419969aa0")
+	)
+	(wire
+		(pts
+			(xy 161.29 73.66) (xy 161.29 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f3f18b-da52-4ad2-a160-d0823ad4d781")
 	)
 	(wire
 		(pts
@@ -1247,6 +1355,16 @@
 			(type default)
 		)
 		(uuid "4f0958ad-47ff-47d3-9a59-f5672fc73fbf")
+	)
+	(wire
+		(pts
+			(xy 146.05 62.23) (xy 148.59 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5637a2c1-4438-48d6-b35d-41e5a8d5400e")
 	)
 	(wire
 		(pts
@@ -1300,6 +1418,36 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 73.66) (xy 161.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d09ef2-073c-4666-9c44-55e401110371")
+	)
+	(wire
+		(pts
+			(xy 146.05 77.47) (xy 146.05 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73699162-a74a-4dd9-9ec3-f44339f23e5b")
+	)
+	(wire
+		(pts
+			(xy 161.29 80.01) (xy 161.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b640c1-0539-4320-a2f6-f0a17e00c1d3")
+	)
+	(wire
+		(pts
 			(xy 82.55 106.68) (xy 82.55 113.03)
 		)
 		(stroke
@@ -1317,6 +1465,16 @@
 			(type default)
 		)
 		(uuid "a3e6e440-e5ce-4b50-99d7-c0b3e40eefe6")
+	)
+	(wire
+		(pts
+			(xy 135.89 82.55) (xy 125.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3f2cbe-c44f-471e-90b0-6abdcace75ce")
 	)
 	(wire
 		(pts
@@ -1350,6 +1508,36 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 62.23) (xy 156.21 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1b0b1a-b684-44ad-b29b-b49b873a8c32")
+	)
+	(wire
+		(pts
+			(xy 146.05 64.77) (xy 146.05 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd38121f-5b03-4314-b171-0518e717a30a")
+	)
+	(wire
+		(pts
+			(xy 134.62 64.77) (xy 146.05 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8733dc-283e-4a6d-9c7b-0cf288fc9451")
+	)
+	(wire
+		(pts
 			(xy 69.85 96.52) (xy 74.93 96.52)
 		)
 		(stroke
@@ -1357,6 +1545,16 @@
 			(type default)
 		)
 		(uuid "d256dd1e-d297-4683-a396-6dc65a7297d6")
+	)
+	(wire
+		(pts
+			(xy 146.05 73.66) (xy 146.05 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a89df9-b36b-4f3d-84bb-ce0fd468c422")
 	)
 	(wire
 		(pts
@@ -1370,6 +1568,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 73.66) (xy 149.86 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e256c92f-399b-4224-b5d2-bb2cdadadbae")
+	)
+	(wire
+		(pts
 			(xy 99.06 96.52) (xy 104.14 96.52)
 		)
 		(stroke
@@ -1377,6 +1585,26 @@
 			(type default)
 		)
 		(uuid "e67338f9-8ef2-4ee6-a79a-cad51fd53f3c")
+	)
+	(wire
+		(pts
+			(xy 116.84 82.55) (xy 111.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae62572-d8a3-479f-807b-43b4404f54df")
+	)
+	(wire
+		(pts
+			(xy 116.84 78.74) (xy 116.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc3ecef-a0e7-45f1-a6c9-153c82e3d467")
 	)
 	(wire
 		(pts
@@ -1388,9 +1616,19 @@
 		)
 		(uuid "f359275f-b730-4a6c-a927-267b7b332de5")
 	)
+	(wire
+		(pts
+			(xy 134.62 49.53) (xy 146.05 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc952bd9-d528-4728-89a8-c2c4b41fc6ac")
+	)
 	(hierarchical_label "PRE_OUT"
 		(shape input)
-		(at 111.76 82.55 0)
+		(at 194.31 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1398,7 +1636,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e10c6d21-c6c5-44ec-bbef-0208ec579746")
+		(uuid "9b8a2a63-fc9a-4835-b720-a29bda65be60")
 	)
 	(hierarchical_label "PRE_IN"
 		(shape input)
@@ -1414,7 +1652,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 90.17 0)
+		(at 135.89 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1423,7 +1661,7 @@
 		(fields_autoplaced yes)
 		(uuid "00e6736d-9246-4f10-9783-5a0aa487e33d")
 		(property "Reference" "#PWR024"
-			(at 111.76 96.52 0)
+			(at 135.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1432,7 +1670,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 95.25 0)
+			(at 135.89 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +1678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 90.17 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,7 +1687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 90.17 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,7 +1696,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 90.17 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,7 +1744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.072 76.2 90)
 			(effects
 				(font
@@ -1549,6 +1787,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VAA")
+		(at 146.05 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "112935ad-ffc8-4e70-bd55-7b38b9691311")
+		(property "Reference" "#PWR026"
+			(at 146.05 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VREF_A"
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VAA\""
+			(at 146.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f7e9d20-f1c9-4ae1-9bd6-683eef7cbce1")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3/9f1081ed-df36-4788-b067-b54b3beb2f85"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 69.85 109.22 180)
 		(unit 1)
@@ -1576,7 +1880,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 68.8848 105.41 0)
 			(effects
 				(font
@@ -1646,7 +1950,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 57.4548 96.52 0)
 			(effects
 				(font
@@ -1714,7 +2018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 101.6 106.68 0)
 			(effects
 				(font
@@ -1776,6 +2080,73 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 153.67 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26184d3d-0898-4ede-9030-3b03b352d183")
+		(property "Reference" "C35"
+			(at 153.416 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100p"
+			(at 153.416 69.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 157.48 72.6948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "001a03e6-6c35-4852-9bab-78d5d76c440f")
+		)
+		(pin "2"
+			(uuid "19c0c9e3-4bd1-494a-876c-5689492c05e7")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3/9f1081ed-df36-4788-b067-b54b3beb2f85"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 58.42 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1800,7 +2171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 62.23 79.0448 0)
 			(effects
 				(font
@@ -1870,7 +2241,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 107.188 116.84 90)
 			(effects
 				(font
@@ -1913,6 +2284,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 134.62 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42191b0a-58f2-432a-8b2e-a6486bcba594")
+		(property "Reference" "C36"
+			(at 127.762 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 130.302 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 133.6548 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 134.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b438c454-9f7e-4673-a314-b104ed4b24ca")
+		)
+		(pin "2"
+			(uuid "970346a6-ec24-48fe-9a9b-d04d6f75640b")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3/9f1081ed-df36-4788-b067-b54b3beb2f85"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 93.98 127 90)
 		(unit 1)
@@ -1922,7 +2360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49419448-9818-4232-bd31-4aed14828a9f")
-		(property "Reference" "Saturation"
+		(property "Reference" "Saturation1"
 			(at 93.98 130.81 90)
 			(effects
 				(font
@@ -1938,7 +2376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
 			(at 93.98 127 0)
 			(effects
 				(font
@@ -1977,7 +2415,7 @@
 		(instances
 			(project "lofi-chorus"
 				(path "/588a825c-d767-4731-8ddd-93a0322145f3/9f1081ed-df36-4788-b067-b54b3beb2f85"
-					(reference "Saturation")
+					(reference "Saturation1")
 					(unit 1)
 				)
 			)
@@ -2009,7 +2447,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 86.36 113.03 0)
 			(effects
 				(font
@@ -2087,7 +2525,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100p"
 			(at 95.25 91.44 90)
 			(effects
 				(font
@@ -2095,7 +2533,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 99.06 95.5548 0)
 			(effects
 				(font
@@ -2231,7 +2669,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 71.628 101.6 90)
 			(effects
 				(font
@@ -2274,6 +2712,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 121.92 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bdc57d4-fb25-48ef-b769-a838b43e9877")
+		(property "Reference" "Tone1"
+			(at 121.92 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 121.92 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d34378d-999f-46bc-a81b-f0ed5017d732")
+		)
+		(pin "1"
+			(uuid "c0511f1d-34c5-4efa-9b1e-caa242928ea4")
+		)
+		(pin "3"
+			(uuid "8eb9223d-c332-41bc-9755-cacd4dadaaa2")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3/9f1081ed-df36-4788-b067-b54b3beb2f85"
+					(reference "Tone1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 93.98 113.03 180)
 		(unit 1)
@@ -2299,7 +2808,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 93.98 113.03 0)
 			(effects
 				(font
@@ -2451,7 +2960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -2537,7 +3046,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 93.98 106.68 0)
 			(effects
 				(font
@@ -2625,7 +3134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 49.022 83.82 90)
 			(effects
 				(font
@@ -2663,6 +3172,162 @@
 				(path "/588a825c-d767-4731-8ddd-93a0322145f3/9f1081ed-df36-4788-b067-b54b3beb2f85"
 					(reference "R20")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daec4524-a303-49a5-bdf7-0cd2f0cce37b")
+		(property "Reference" "R29"
+			(at 137.16 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "25k"
+			(at 137.16 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 136.398 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5a2dcfb-d7ce-4b7f-93bb-292840ae5f97")
+		)
+		(pin "2"
+			(uuid "8b4ed2a7-1661-4e59-8bd9-31d8553a8f15")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3/9f1081ed-df36-4788-b067-b54b3beb2f85"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:RC4558")
+		(at 153.67 80.01 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df8712a2-fbb5-44ce-abc8-36ae617e9a01")
+		(property "Reference" "U4"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC4558"
+			(at 153.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm"
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/rc4558.pdf"
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual General Purpose, Operational Amplifier, DIP-8/SOIC-8/SSOP-8"
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cc21907c-8b39-4857-b6a7-e9bc71892693")
+		)
+		(pin "6"
+			(uuid "02a68b4e-6e45-4822-b99f-6a21d49ff551")
+		)
+		(pin "8"
+			(uuid "761b7985-5b35-4717-b913-d13cee925d1b")
+		)
+		(pin "4"
+			(uuid "1c7a7f6a-c823-4139-a3c4-b2f557e1fc8a")
+		)
+		(pin "5"
+			(uuid "c4b33eef-5593-465d-83e6-20e6f9810f1c")
+		)
+		(pin "1"
+			(uuid "11c8b24c-21e4-4653-81ab-a807029a0dcd")
+		)
+		(pin "3"
+			(uuid "ee66a288-03a2-4475-9f4e-aeef02eaa44c")
+		)
+		(pin "7"
+			(uuid "5a17218b-cab0-4e58-9194-a18112ab717d")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3/9f1081ed-df36-4788-b067-b54b3beb2f85"
+					(reference "U4")
+					(unit 2)
 				)
 			)
 		)
@@ -2735,6 +3400,74 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 152.4 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2919e55-6317-48b1-818a-4755d0da949d")
+		(property "Reference" "R27"
+			(at 152.4 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 152.4 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 152.4 64.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6dfd246-1ac0-4fbb-83f4-29113ce7ef89")
+		)
+		(pin "2"
+			(uuid "51b161b0-4e7c-4ce2-9efc-3936ca5fd1cd")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3/9f1081ed-df36-4788-b067-b54b3beb2f85"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 78.74 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2759,7 +3492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 78.74 98.298 90)
 			(effects
 				(font
@@ -2819,7 +3552,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "680r"
 			(at 107.95 78.74 90)
 			(effects
 				(font
@@ -2827,7 +3560,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 107.95 84.328 90)
 			(effects
 				(font
@@ -2895,7 +3628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm"
 			(at 96.52 82.55 0)
 			(effects
 				(font
@@ -2956,17 +3689,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 111.76 86.36 180)
+		(lib_id "Device:R")
+		(at 146.05 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ff70cc64-6de8-443c-a4c6-bcab7ef1df79")
-		(property "Reference" "C33"
-			(at 115.57 85.0899 0)
+		(uuid "f562fd99-9bde-4039-bcc2-a6cb8d9c81a9")
+		(property "Reference" "R28"
+			(at 148.59 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,8 +3707,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10n"
-			(at 115.57 87.6299 0)
+		(property "Value" "3k3"
+			(at 148.59 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,8 +3716,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 110.7948 82.55 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 147.828 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +3726,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 86.36 0)
+			(at 146.05 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "308638e2-75de-4f48-b959-429892b5c5a4")
+		)
+		(pin "2"
+			(uuid "63e49690-87bb-4b83-baaa-9280fe569579")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3/9f1081ed-df36-4788-b067-b54b3beb2f85"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff70cc64-6de8-443c-a4c6-bcab7ef1df79")
+		(property "Reference" "C33"
+			(at 139.7 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "68n"
+			(at 139.7 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 134.9248 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,7 +3805,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 111.76 86.36 0)
+			(at 135.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)

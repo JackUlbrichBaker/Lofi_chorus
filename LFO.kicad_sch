@@ -1125,7 +1125,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 88.138 129.54 90)
 			(effects
 				(font
@@ -1193,7 +1193,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.25 98.298 90)
 			(effects
 				(font
@@ -1245,7 +1245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a5e0f2d-80f3-4e59-8683-0d7397e78726")
-		(property "Reference" "Speed"
+		(property "Reference" "Speed1"
 			(at 93.98 130.81 90)
 			(effects
 				(font
@@ -1261,7 +1261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
 			(at 93.98 137.16 0)
 			(effects
 				(font
@@ -1300,7 +1300,7 @@
 		(instances
 			(project "lofi-chorus"
 				(path "/588a825c-d767-4731-8ddd-93a0322145f3/ad47ec63-ab79-496c-acf3-001c089e7238"
-					(reference "Speed")
+					(reference "Speed1")
 					(unit 1)
 				)
 			)
@@ -1332,7 +1332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 97.79 124.7648 0)
 			(effects
 				(font
@@ -1402,7 +1402,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 76.5048 137.16 0)
 			(effects
 				(font
@@ -1470,7 +1470,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 69.85 138.1252 0)
 			(effects
 				(font
@@ -1672,7 +1672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 103.378 129.54 90)
 			(effects
 				(font
@@ -1740,7 +1740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm"
 			(at 93.98 111.76 0)
 			(effects
 				(font
@@ -1810,7 +1810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ced5d32f-cd48-4f0a-9a92-11add6adf3df")
-		(property "Reference" "Depth"
+		(property "Reference" "Depth1"
 			(at 63.5 135.8899 0)
 			(effects
 				(font
@@ -1828,7 +1828,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 66.04 137.16 0)
 			(effects
 				(font
@@ -1867,7 +1867,7 @@
 		(instances
 			(project "lofi-chorus"
 				(path "/588a825c-d767-4731-8ddd-93a0322145f3/ad47ec63-ab79-496c-acf3-001c089e7238"
-					(reference "Depth")
+					(reference "Depth1")
 					(unit 1)
 				)
 			)

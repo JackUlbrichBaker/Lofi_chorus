@@ -258,6 +258,145 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1197,12 +1336,6 @@
 		(uuid "913da7e3-ffc9-44a3-9f93-46e00c3743f7")
 	)
 	(junction
-		(at 66.04 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d274cb7-e876-4d39-a134-a1c4b3186c26")
-	)
-	(junction
 		(at 113.03 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1324,16 +1457,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 107.95) (xy 81.28 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14effc11-6330-4faf-b4ae-59a592368248")
-	)
-	(wire
-		(pts
 			(xy 113.03 97.79) (xy 124.46 97.79)
 		)
 		(stroke
@@ -1371,16 +1494,6 @@
 			(type default)
 		)
 		(uuid "59a60f1b-54c8-42b4-a3e7-3272cdc012b2")
-	)
-	(wire
-		(pts
-			(xy 66.04 107.95) (xy 66.04 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59dcf30f-eca7-490e-a21a-f349e94a0155")
 	)
 	(wire
 		(pts
@@ -1544,6 +1657,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 66.04) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a49b2a51-6f60-4a75-ab22-e0aa671372e4")
+	)
+	(wire
+		(pts
 			(xy 106.68 66.04) (xy 118.11 66.04)
 		)
 		(stroke
@@ -1564,17 +1687,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 102.87) (xy 81.28 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae144697-24bc-4826-b115-69c97f4c3a18")
-	)
-	(wire
-		(pts
-			(xy 81.28 97.79) (xy 102.87 97.79)
+			(xy 88.9 97.79) (xy 102.87 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1710,7 +1823,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 157.7848 95.25 0)
 			(effects
 				(font
@@ -1847,7 +1960,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 122.2248 139.7 0)
 			(effects
 				(font
@@ -1917,7 +2030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 77.7748 139.7 0)
 			(effects
 				(font
@@ -2098,6 +2211,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VAA")
+		(at 88.9 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4141bda7-127c-4fec-83f3-aa561f0da0af")
+		(property "Reference" "#PWR05"
+			(at 92.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VREF_A"
+			(at 85.09 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VAA\""
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c21b00a1-3637-41fd-8b6a-af4e5fa97f46")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3/52d2952c-c0c6-464a-8648-a17426b40c0b"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 113.03 101.6 180)
 		(unit 1)
@@ -2125,7 +2305,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 112.0648 97.79 0)
 			(effects
 				(font
@@ -2195,7 +2375,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 126.238 93.98 90)
 			(effects
 				(font
@@ -2265,7 +2445,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 145.0848 139.7 0)
 			(effects
 				(font
@@ -2335,7 +2515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 169.418 101.6 90)
 			(effects
 				(font
@@ -2405,7 +2585,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 169.418 93.98 90)
 			(effects
 				(font
@@ -2475,7 +2655,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 133.6548 139.7 0)
 			(effects
 				(font
@@ -2650,92 +2830,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:RC4558")
-		(at 73.66 100.33 0)
-		(mirror y)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7022d938-5c5f-4b68-99e3-ffc77e388d27")
-		(property "Reference" "U4"
-			(at 73.66 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC4558"
-			(at 73.66 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/rc4558.pdf"
-			(at 73.66 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual General Purpose, Operational Amplifier, DIP-8/SOIC-8/SSOP-8"
-			(at 73.66 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cc21907c-8b39-4857-b6a7-e9bc71892693")
-		)
-		(pin "6"
-			(uuid "23d2cea9-d45c-48f4-9ce4-457f456ae566")
-		)
-		(pin "8"
-			(uuid "761b7985-5b35-4717-b913-d13cee925d1b")
-		)
-		(pin "4"
-			(uuid "1c7a7f6a-c823-4139-a3c4-b2f557e1fc8a")
-		)
-		(pin "5"
-			(uuid "9a0299b4-d56e-40e9-806e-649846a35355")
-		)
-		(pin "1"
-			(uuid "11c8b24c-21e4-4653-81ab-a807029a0dcd")
-		)
-		(pin "3"
-			(uuid "ee66a288-03a2-4475-9f4e-aeef02eaa44c")
-		)
-		(pin "7"
-			(uuid "59091ab9-8ff8-4bbe-bfcd-3bd940bcb5f9")
-		)
-		(instances
-			(project "lofi-chorus"
-				(path "/588a825c-d767-4731-8ddd-93a0322145f3/52d2952c-c0c6-464a-8648-a17426b40c0b"
-					(reference "U4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 106.68 69.85 180)
 		(unit 1)
@@ -2763,7 +2857,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 105.7148 66.04 0)
 			(effects
 				(font
@@ -2833,7 +2927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm"
 			(at 137.16 97.79 0)
 			(effects
 				(font
@@ -2889,6 +2983,72 @@
 				(path "/588a825c-d767-4731-8ddd-93a0322145f3/52d2952c-c0c6-464a-8648-a17426b40c0b"
 					(reference "U2")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd587f1-7339-4e8c-970c-84dacf6c0f4d")
+		(property "Reference" "#PWR030"
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65d5d3c8-42de-40dd-8dd7-e48e467a2e41")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3/52d2952c-c0c6-464a-8648-a17426b40c0b"
+					(reference "#PWR030")
+					(unit 1)
 				)
 			)
 		)
@@ -2987,7 +3147,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 185.7248 97.79 0)
 			(effects
 				(font
@@ -3030,73 +3190,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VAA")
-		(at 66.04 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3a82426-f8d2-4497-b419-d883c986ad9b")
-		(property "Reference" "#PWR05"
-			(at 69.85 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VREF_A"
-			(at 62.23 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 66.04 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b326238d-4e24-4d39-9a9c-6b0f0f55a2f4")
-		)
-		(instances
-			(project "lofi-chorus"
-				(path "/588a825c-d767-4731-8ddd-93a0322145f3/52d2952c-c0c6-464a-8648-a17426b40c0b"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 129.54 69.85 180)
 		(unit 1)
@@ -3124,7 +3217,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 128.5748 66.04 0)
 			(effects
 				(font
@@ -3194,7 +3287,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 175.5648 97.79 0)
 			(effects
 				(font
@@ -3263,7 +3356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm"
 			(at 147.32 97.79 0)
 			(effects
 				(font
@@ -3291,7 +3384,7 @@
 			)
 		)
 		(pin "2"
-			(uuid "cc21907c-8b39-4857-b6a7-e9bc71892693")
+			(uuid "cc21907c-8b39-4857-b6a7-e9bc71892694")
 		)
 		(pin "6"
 			(uuid "6e7315d2-8e05-4801-958b-5099d4f6ad5f")
@@ -3306,10 +3399,10 @@
 			(uuid "aa0d87a9-1fea-4f18-a4df-7332ad05052e")
 		)
 		(pin "1"
-			(uuid "11c8b24c-21e4-4653-81ab-a807029a0dcd")
+			(uuid "11c8b24c-21e4-4653-81ab-a807029a0dce")
 		)
 		(pin "3"
-			(uuid "ee66a288-03a2-4475-9f4e-aeef02eaa44c")
+			(uuid "ee66a288-03a2-4475-9f4e-aeef02eaa44d")
 		)
 		(pin "7"
 			(uuid "00b67558-fb28-4af7-85be-5b49277540ad")
@@ -3351,7 +3444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 101.9048 97.79 0)
 			(effects
 				(font
@@ -3421,7 +3514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 100.6348 139.7 0)
 			(effects
 				(font
@@ -3458,6 +3551,75 @@
 			(project "lofi-chorus"
 				(path "/588a825c-d767-4731-8ddd-93a0322145f3/52d2952c-c0c6-464a-8648-a17426b40c0b"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 85.09 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfb31bcd-761b-47ca-b920-3f40e1ac2a48")
+		(property "Reference" "POWER1"
+			(at 85.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 85.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 85.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 85.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0b4f318-b465-4768-a990-6d1a1ebbbd80")
+		)
+		(pin "2"
+			(uuid "76e66d2a-04b7-48bf-85a9-bff01cc248cf")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3/52d2952c-c0c6-464a-8648-a17426b40c0b"
+					(reference "POWER1")
 					(unit 1)
 				)
 			)
@@ -3557,7 +3719,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 126.238 101.6 90)
 			(effects
 				(font
@@ -3759,7 +3921,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 117.1448 66.04 0)
 			(effects
 				(font
@@ -3829,7 +3991,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 89.2048 139.7 0)
 			(effects
 				(font

@@ -798,12 +798,6 @@
 		)
 	)
 	(junction
-		(at 158.75 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "115d6081-69c0-408b-93ab-1c9a371cce6a")
-	)
-	(junction
 		(at 106.68 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -814,12 +808,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99f6b1b7-7988-42de-b8bb-78d09597bf92")
-	)
-	(junction
-		(at 154.94 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb934bd9-30e1-4e82-8231-9d58827ac44e")
 	)
 	(wire
 		(pts
@@ -833,7 +821,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 71.12) (xy 154.94 71.12)
+			(xy 144.78 71.12) (xy 173.99 71.12)
 		)
 		(stroke
 			(width 0)
@@ -900,36 +888,6 @@
 			(type default)
 		)
 		(uuid "6fd9fd92-c8f6-4e22-bcae-ae6e17694014")
-	)
-	(wire
-		(pts
-			(xy 158.75 71.12) (xy 173.99 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71ae2142-4635-4d39-be62-44d0864c240b")
-	)
-	(wire
-		(pts
-			(xy 154.94 71.12) (xy 158.75 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74ab427c-7c1d-4079-95cb-ee3b7fa6eac9")
-	)
-	(wire
-		(pts
-			(xy 158.75 74.93) (xy 158.75 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86fa6d06-677d-4f47-af92-e933108879ea")
 	)
 	(wire
 		(pts
@@ -1017,7 +975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "211e4185-0ae6-4b17-aa68-75dacafd518d")
-		(property "Reference" "MIX"
+		(property "Reference" "MIX1"
 			(at 91.44 72.3899 0)
 			(effects
 				(font
@@ -1035,7 +993,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
 			(at 93.98 73.66 0)
 			(effects
 				(font
@@ -1074,73 +1032,7 @@
 		(instances
 			(project "lofi-chorus"
 				(path "/588a825c-d767-4731-8ddd-93a0322145f3/7854ca0d-dbb4-419f-8a10-7a4272eb895b"
-					(reference "MIX")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VAA")
-		(at 154.94 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "284518c8-0c2b-4528-81a4-48b5d02a500b")
-		(property "Reference" "#PWR025"
-			(at 154.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VREF_A"
-			(at 154.94 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f7f4a1e-7c46-4653-b0e3-16fc5bd40fe4")
-		)
-		(instances
-			(project "lofi-chorus"
-				(path "/588a825c-d767-4731-8ddd-93a0322145f3/7854ca0d-dbb4-419f-8a10-7a4272eb895b"
-					(reference "#PWR025")
+					(reference "MIX1")
 					(unit 1)
 				)
 			)
@@ -1172,7 +1064,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 140.97 72.898 90)
 			(effects
 				(font
@@ -1215,149 +1107,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 154.94 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72fbcf71-f8ce-4f17-86c9-5d251737f64a")
-		(property "Reference" "Tone"
-			(at 152.4 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 152.4 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c316cf38-5457-4cde-880c-92394006cbfa")
-		)
-		(pin "1"
-			(uuid "f8e074a2-d104-4f4c-90cf-e06a71aa75e9")
-		)
-		(pin "3"
-			(uuid "a3f590bf-36c5-4198-adfe-63d32c70e438")
-		)
-		(instances
-			(project "lofi-chorus"
-				(path "/588a825c-d767-4731-8ddd-93a0322145f3/7854ca0d-dbb4-419f-8a10-7a4272eb895b"
-					(reference "Tone")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 154.94 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73f75a64-3afa-40c5-863f-e509a0507680")
-		(property "Reference" "C34"
-			(at 158.75 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220n"
-			(at 158.75 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.9748 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 154.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f31448fc-c9f8-4d6a-98fb-8429fe78dc2c")
-		)
-		(pin "1"
-			(uuid "7d84ef38-2c9d-48b7-92f9-3cb579f7123f")
-		)
-		(instances
-			(project "lofi-chorus"
-				(path "/588a825c-d767-4731-8ddd-93a0322145f3/7854ca0d-dbb4-419f-8a10-7a4272eb895b"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 121.92 83.82 90)
 		(unit 1)
@@ -1383,7 +1132,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 121.92 85.598 90)
 			(effects
 				(font
@@ -1518,7 +1267,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 135.89 70.1548 0)
 			(effects
 				(font
@@ -1586,7 +1335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm"
 			(at 120.65 71.12 0)
 			(effects
 				(font

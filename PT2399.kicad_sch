@@ -2041,7 +2041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 110.49 97.028 90)
 			(effects
 				(font
@@ -2111,7 +2111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.1852 125.73 0)
 			(effects
 				(font
@@ -2179,7 +2179,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 157.48 112.268 90)
 			(effects
 				(font
@@ -2249,7 +2249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 77.1652 151.13 0)
 			(effects
 				(font
@@ -2319,7 +2319,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 93.218 152.4 90)
 			(effects
 				(font
@@ -2389,7 +2389,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 152.7048 97.79 0)
 			(effects
 				(font
@@ -2523,7 +2523,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 146.05 74.422 90)
 			(effects
 				(font
@@ -2591,7 +2591,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 80.01 107.95 0)
 			(effects
 				(font
@@ -2811,7 +2811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 77.1652 123.19 0)
 			(effects
 				(font
@@ -2947,7 +2947,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 102.108 143.51 90)
 			(effects
 				(font
@@ -3015,7 +3015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 166.37 104.648 90)
 			(effects
 				(font
@@ -3151,7 +3151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 164.7952 97.79 0)
 			(effects
 				(font
@@ -3219,7 +3219,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 153.67 109.5248 0)
 			(effects
 				(font
@@ -3289,7 +3289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 77.978 111.76 90)
 			(effects
 				(font
@@ -3357,7 +3357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 146.05 93.6752 0)
 			(effects
 				(font
@@ -3425,7 +3425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 175.26 99.568 90)
 			(effects
 				(font
@@ -3486,7 +3486,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "MMBT3904"
 			(at 93.98 144.7799 0)
 			(effects
 				(font
@@ -3495,7 +3495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 152.4 143.51 0)
 			(effects
 				(font
@@ -3771,7 +3771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 121.6152 125.73 0)
 			(effects
 				(font
@@ -3839,7 +3839,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 134.62 77.1652 0)
 			(effects
 				(font
@@ -3909,7 +3909,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 155.448 88.9 90)
 			(effects
 				(font
@@ -4045,7 +4045,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 147.828 88.9 90)
 			(effects
 				(font
@@ -4115,7 +4115,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 70.358 135.89 90)
 			(effects
 				(font
@@ -4175,7 +4175,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "MMBT3904"
 			(at 93.98 116.8399 0)
 			(effects
 				(font
@@ -4184,7 +4184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 152.4 115.57 0)
 			(effects
 				(font
@@ -4282,7 +4282,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 153.67 117.1448 0)
 			(effects
 				(font
@@ -4334,7 +4334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8cb7328-850b-479f-becb-8661d25cfe9c")
-		(property "Reference" "LAG"
+		(property "Reference" "LAG1"
 			(at 66.04 142.2399 0)
 			(effects
 				(font
@@ -4352,7 +4352,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
 			(at 68.58 143.51 0)
 			(effects
 				(font
@@ -4391,7 +4391,7 @@
 		(instances
 			(project "lofi-chorus"
 				(path "/588a825c-d767-4731-8ddd-93a0322145f3/a241de9f-cbc8-4fde-b6bd-2c9e5cec80ff"
-					(reference "LAG")
+					(reference "LAG1")
 					(unit 1)
 				)
 			)

@@ -4,12 +4,257 @@
 	(generator_version "8.0")
 	(uuid "588a825c-d767-4731-8ddd-93a0322145f3")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
 	(junction
 		(at 121.92 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e34a241a-34c0-496a-88d9-ee8f681b749f")
+		(uuid "b0e3e8df-f94c-40a7-bba5-1ed8888e63aa")
+	)
+	(bus_entry
+		(at 76.2 105.41)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c1dc56-c260-4fd7-a418-7cd92b238a2e")
 	)
 	(wire
 		(pts
@@ -20,6 +265,36 @@
 			(type default)
 		)
 		(uuid "0490e88b-7498-406d-bf51-4ee116916361")
+	)
+	(wire
+		(pts
+			(xy 33.02 85.09) (xy 39.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9be93d-8c4c-4049-a983-3dc40c240f9e")
+	)
+	(wire
+		(pts
+			(xy 118.11 87.63) (xy 121.92 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a26a10-8799-4b15-8d54-92367b0b9911")
+	)
+	(wire
+		(pts
+			(xy 203.2 85.09) (xy 213.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ad8d30-1868-44e1-9119-d91ab51587e1")
 	)
 	(wire
 		(pts
@@ -63,13 +338,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 85.09) (xy 121.92 85.09)
+			(xy 77.47 85.09) (xy 83.82 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cca7eda8-5ba9-41c6-a117-9b72ffd94e8b")
+		(uuid "8d1be1af-22a2-4658-b705-62df4152619a")
 	)
 	(wire
 		(pts
@@ -83,6 +358,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 85.09) (xy 121.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa2b9fa-099d-4a61-bef8-0c3065c4cbf7")
+	)
+	(wire
+		(pts
 			(xy 165.1 85.09) (xy 177.8 85.09)
 		)
 		(stroke
@@ -91,8 +376,552 @@
 		)
 		(uuid "f9cca101-bd3b-4c06-b80d-ef1e735e75a0")
 	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 27.94 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f664cfd-3d43-4921-8db3-c68138395eef")
+		(property "Reference" "PRE_IN1"
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 27.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 27.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 27.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "163db15c-885b-4358-ae63-08199520d9e2")
+		)
+		(pin "2"
+			(uuid "7645210b-5b03-4c36-8e34-43e455c60dfa")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3"
+					(reference "PRE_IN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 88.9 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ef5412d-c346-414d-ad7e-f718cdf04a29")
+		(property "Reference" "PRE_OUT1"
+			(at 91.44 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 91.44 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1636ab39-0e4b-47bf-b70a-5cb863690b5f")
+		)
+		(pin "2"
+			(uuid "f12f6d46-da2c-4a05-bb11-fa4febb85b52")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3"
+					(reference "PRE_OUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 113.03 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2145265c-a8db-435f-9481-d4088759664c")
+		(property "Reference" "CHORUS_IN1"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e2cc9aa-dfc5-4056-8501-358c033b3f15")
+		)
+		(pin "2"
+			(uuid "50a92068-9d68-4ca1-8e52-00114b0e2e74")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3"
+					(reference "CHORUS_IN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38791620-8826-4920-9be8-ebbe9fefe64a")
+		(property "Reference" "#PWR028"
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8f2c22e-bd49-49f9-94c1-e5b01a6acb44")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bb65446-45cc-4da1-8d71-2cfe29da5b19")
+		(property "Reference" "#PWR029"
+			(at 213.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51272f88-c9af-4ee0-96f2-066b6c869e6a")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90d7afa8-ad18-42c3-8c34-3f6f30fb30c1")
+		(property "Reference" "#PWR025"
+			(at 33.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "414870de-bdda-4506-bfc5-407cea733ce2")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 218.44 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d2c680a-81b6-40ae-af18-0aca75dc571e")
+		(property "Reference" "CHORUS_OUT1"
+			(at 220.98 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 220.98 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78817719-874f-48cf-a38a-03417ba4f2bb")
+		)
+		(pin "2"
+			(uuid "8fc9e557-9859-4f3c-bb19-c9c2aa02b19a")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3"
+					(reference "CHORUS_OUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d20ce058-1852-40b8-8f83-d11cbf9c0931")
+		(property "Reference" "#PWR027"
+			(at 83.82 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "424d9ed3-c60f-4363-ab51-df7c668aadad")
+		)
+		(instances
+			(project "lofi-chorus"
+				(path "/588a825c-d767-4731-8ddd-93a0322145f3"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 85.09 118.11)
+		(at 62.23 118.11)
 		(size 12.7 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -104,7 +933,7 @@
 		)
 		(uuid "52d2952c-c0c6-464a-8648-a17426b40c0b")
 		(property "Sheetname" "Power"
-			(at 85.09 117.3984 0)
+			(at 62.23 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -113,7 +942,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 85.09 131.3946 0)
+			(at 62.23 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -198,7 +1027,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 76.2)
+		(at 39.37 76.2)
 		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -210,7 +1039,7 @@
 		)
 		(uuid "9f1081ed-df36-4788-b067-b54b3beb2f85")
 		(property "Sheetname" "Preamp"
-			(at 76.2 75.4884 0)
+			(at 39.37 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -219,7 +1048,7 @@
 			)
 		)
 		(property "Sheetfile" "Preamp.kicad_sch"
-			(at 76.2 102.1846 0)
+			(at 39.37 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,7 +1057,7 @@
 			)
 		)
 		(pin "PRE_IN" input
-			(at 76.2 85.09 180)
+			(at 39.37 85.09 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -238,7 +1067,7 @@
 			(uuid "048609c9-8c25-478d-9ddd-22e2e8f79050")
 		)
 		(pin "PRE_OUT" input
-			(at 114.3 85.09 0)
+			(at 77.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
